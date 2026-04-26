@@ -87,6 +87,19 @@ nav {
      /* Purple color for specific words */
 }
 
+.badge {
+     display: inline-flex;
+     align-items: center;
+     font-size: 16px;
+     padding: 8px 16px;
+     border: 1px solid #E4E7EC;
+     border-radius: 16px;
+     gap: 12px;
+     margin-bottom: 12px;
+     color: #344054;
+}
+
+
 
 /* font styles */
 
