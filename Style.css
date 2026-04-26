@@ -11,8 +11,6 @@
      padding: 0 20px;
 }
 
-
-
 /* Navbar Specific */
 header {
      width: 100%;
@@ -39,7 +37,6 @@ nav {
      align-items: center;
      gap: 30px;
 }
-
 
 
 .nav-links li a {
@@ -76,6 +73,18 @@ nav {
      color: #A657E7;
      cursor: pointer;
      background: transparent;
+}
+
+
+/* hero section */
+
+.hero {
+     padding: 80px 0;
+}
+
+.hero-content h1 span {
+     color: #A657E7;
+     /* Purple color for specific words */
 }
 
 
@@ -121,11 +130,12 @@ nav {
 
 /* Tablet (max-width: 1024px) */
 @media screen and (max-width: 1024px) {
+
+     /* navbar */
      header {
           padding: 16px 40px;
           height: auto;
      }
-
 
      nav .nav-links img {
           display: none;
@@ -166,6 +176,8 @@ nav {
 
 /* Mobile (max-width: 768px) */
 @media screen and (max-width: 768px) {
+     /* navbar */
+
      header {
           padding: 16px 20px;
           height: auto;
@@ -206,7 +218,6 @@ nav {
           margin-right: 10px;
 
      }
-
 
      .nav-links li a {
           font-family: "Poppins", sans-serif;
