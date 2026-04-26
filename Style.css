@@ -80,11 +80,66 @@ nav {
 
 .hero {
      padding: 80px 0;
+     /* border: 1px solid red; */
 }
 
-.hero-content h1 span {
-     color: #A657E7;
-     /* Purple color for specific words */
+.hero-content {
+     max-width: 560px;
+}
+
+
+.hero-content h1 {
+     font-size: 48px;
+}
+
+.hero-content p {
+     font-family: "Inter", sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 32px;
+     letter-spacing: 0%;
+     color: #344054;
+}
+
+/* button */
+
+.hero-btns {
+     display: inline-flex;
+     width: 353px;
+     height: 45px;
+     gap: 24px;
+     margin-top: 24px;
+}
+
+.btn-primary {
+     color: #fff;
+     font-size: 18px;
+     border: 1px solid #B564F7;
+     padding: 8px 27px;
+     border-radius: 24px;
+     background: linear-gradient(177.38deg, #B564F7 8.45%, #6A2F9B 98.78%);
+}
+
+.btn-secondary {
+     color: #B262F3;
+     font-size: 18px;
+     border: 1px solid #A657E7;
+     border-radius: 24px;
+     padding: 8px 27px;
+}
+
+.gradiantText {
+     background: linear-gradient(90deg, #2B034D 26.84%, #B564F7 57.46%, #D37EF0 86.78%, #EF91FF 100%);
+
+     -webkit-background-clip: text;
+     background-clip: text;
+
+     -webkit-text-fill-color: transparent;
+     color: transparent;
+}
+
+.text {
+     color: #D32E23;
 }
 
 .badge {
