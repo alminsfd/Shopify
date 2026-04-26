@@ -256,6 +256,8 @@ nav {
      gap: 40px;
 }
 
+/* clients section */
+
 /* Stats Styling */
 .client-stats h2 {
      font-size: 32px;
@@ -301,6 +303,140 @@ nav {
      opacity: 1;
 }
 
+
+/* service sections */
+
+
+.services-section {
+     padding: 100px 20px;
+     text-align: center;
+}
+
+.services-header h1 {
+     font-size: 42px;
+     margin-bottom: 20px;
+}
+
+.services-header p {
+     max-width: 700px;
+     margin: 0 auto 50px;
+     color: #344054;
+     line-height: 1.6;
+}
+
+.pimkish {
+     color: #A554E6;
+}
+
+/* Main White Box */
+.services-box {
+     background: #FFFFFF;
+     border: 1px solid #D0D5DD;
+     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+     border-radius: 24px;
+     padding: 60px;
+     position: relative;
+     max-width: 1100px;
+     margin: 0 auto;
+}
+
+.services-grid {
+     display: flex;
+     gap: 40px;
+     text-align: left;
+     align-items: flex-start;
+}
+
+/* Features List */
+.features-list {
+     flex: 1.2;
+}
+
+.feature-title {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     margin-bottom: 30px;
+}
+
+.feature-item {
+     display: flex;
+     gap: 15px;
+     margin-bottom: 25px;
+}
+
+.feature-item h4 {
+     font-size: 18px;
+     color: #101828;
+     margin-bottom: 5px;
+}
+
+.feature-item p {
+     font-size: 14px;
+     color: #344054;
+     line-height: 1.5;
+}
+
+.check-img {
+     width: 24px;
+     height: 24px;
+}
+
+/* Divider */
+.vertical-divider {
+     width: 2px;
+     align-self: stretch;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D0D5DD 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* Pricing Cards */
+.pricing-cards {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+
+.plan-card {
+     border: 1px solid #D0D5DD;
+     border-radius: 12px;
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     cursor: pointer;
+     position: relative;
+}
+
+.plan-card.active {
+     border-color: #B564F7;
+     background: #F9F5FF;
+}
+
+.popular-tag {
+     position: absolute;
+     top: -10px;
+     left: 20px;
+     background: #344054;
+     color: white;
+     font-size: 10px;
+     padding: 2px 8px;
+     border-radius: 4px;
+}
+
+.radio-circle {
+     width: 20px;
+     height: 20px;
+     border: 1px solid #D0D5DD;
+     border-radius: 50%;
+}
+
+
+
+/* Footer Button */
+.services-footer {
+     margin-top: 40px;
+}
 
 
 /* font styles */
@@ -408,7 +544,7 @@ nav {
           position: static;
      }
 
-
+     /* client */
 
      .client-logos {
           justify-content: center;
@@ -423,6 +559,20 @@ nav {
 
           margin-top: 1px;
 
+     }
+
+     /* service section */
+
+     .services-box {
+          padding: 40px;
+     }
+
+     .services-grid {
+          gap: 20px;
+     }
+
+     .services-header h1 {
+          font-size: 32px;
      }
 
 }
@@ -534,6 +684,8 @@ nav {
           gap: 20px;
      }
 
+     /* client section */
+
      .client-stats h2 {
           font-size: 25px;
      }
@@ -562,6 +714,25 @@ nav {
 
           margin-top: 10px;
 
+     }
+
+
+     /* service section */
+
+     .services-grid {
+          flex-direction: column;
+     }
+
+     .vertical-divider {
+          width: 100%;
+          height: 1px;
+          background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #D0D5DD 50%, rgba(0, 0, 0, 0) 100%);
+          margin: 20px 0;
+     }
+
+     .services-box {
+          padding: 30px 20px;
+          border-radius: 16px;
      }
 
 }
