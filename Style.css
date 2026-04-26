@@ -239,6 +239,70 @@ nav {
      gap: 20px;
 }
 
+/* clients section */
+
+.clients-section {
+     padding: 70px 0;
+     margin-top: 100px;
+     width: 100%;
+     background-color: #fff;
+     border-top: 1px solid #F2F4F7;
+     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.flex-clients {
+     display: flex;
+     align-items: center;
+     gap: 40px;
+}
+
+/* Stats Styling */
+.client-stats h2 {
+     font-size: 32px;
+     padding-left: 20px;
+     color: #101828;
+     margin-bottom: 4px;
+}
+
+.client-stats p {
+     padding-left: 20px;
+     font-size: 20px;
+     color: #1D2939;
+     white-space: nowrap;
+}
+
+/* Vertical Divider */
+.divider {
+     width: 2px;
+     height: 100px;
+     border: none;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D0D5DD 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* Logos Styling */
+.client-logos {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-grow: 1;
+     gap: 30px;
+}
+
+.client-logos img {
+     height: 32px;
+     width: auto;
+     filter: grayscale(100%);
+     opacity: 0.7;
+     transition: all 0.3s ease;
+}
+
+.client-logos img:hover {
+     filter: grayscale(0%);
+     opacity: 1;
+}
+
+
+
 /* font styles */
 
 .poppins-thin {
@@ -337,6 +401,28 @@ nav {
 
      .badge {
           justify-content: center;
+     }
+
+     .social-box {
+          padding: 10px 15px;
+          position: static;
+     }
+
+
+
+     .client-logos {
+          justify-content: center;
+          gap: 20px;
+     }
+
+     .client-logos img {
+          height: 24px;
+     }
+
+     .clients-section {
+
+          margin-top: 1px;
+
      }
 
 }
@@ -442,5 +528,40 @@ nav {
           flex-direction: column;
      }
 
+     .flex-clients {
+          flex-direction: column;
+          text-align: center;
+          gap: 20px;
+     }
+
+     .client-stats h2 {
+          font-size: 25px;
+     }
+
+     .client-stats p {
+          font-size: 15px;
+     }
+
+     .divider {
+          width: 80%;
+          height: 1px;
+          background: linear-gradient(to right, transparent, #D0D5DD, transparent);
+     }
+
+     .client-logos {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+     }
+
+     .client-logos img {
+          height: 24px;
+     }
+
+     .clients-section {
+
+          margin-top: 10px;
+
+     }
 
 }
