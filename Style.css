@@ -94,7 +94,14 @@ nav {
      width: 290px;
      height: 380px;
      border-radius: 20px;
+     transition: all 0.3s ease;
      object-fit: cover;
+}
+
+.hero-img img:hover {
+     transform: translateY(-3px);
+     background-color: #E4E7EC;
+     cursor: pointer;
 }
 
 .hero-content {
@@ -132,6 +139,7 @@ nav {
      padding: 8px 27px;
      border-radius: 24px;
      background: linear-gradient(177.38deg, #B564F7 8.45%, #6A2F9B 98.78%);
+     cursor: pointer;
 }
 
 .btn-secondary {
@@ -140,6 +148,7 @@ nav {
      border: 1px solid #A657E7;
      border-radius: 24px;
      padding: 8px 27px;
+     cursor: pointer;
 }
 
 .gradiantText {
@@ -169,7 +178,62 @@ nav {
      box-shadow: -1px 1px 5px 2px #ecebeb;
 }
 
+/* social section*/
 
+.social-box {
+     background-color: #ffffff;
+     padding: 20px 30px;
+     border-radius: 16px;
+     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+     width: fit-content;
+     position: absolute;
+     top: 443px;
+     left: 144px;
+     z-index: 10;
+
+
+}
+
+
+.social-box p {
+     font-family: "Poppins", sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     color: #101828;
+     margin-bottom: 15px;
+
+}
+
+.social-icons {
+     display: flex;
+     align-items: center;
+     gap: 12px;
+     justify-content: center;
+}
+
+.social-icons img {
+     width: 48px;
+     height: 48px;
+     padding: 8px;
+     background-color: #E6E6E6;
+     border-radius: 50%;
+     object-fit: contain;
+     transition: transform 0.3s ease;
+     cursor: pointer;
+}
+
+.social-icons img:hover {
+     transform: translateY(-3px);
+     background-color: #E4E7EC;
+     cursor: pointer;
+}
+
+.hero-visual {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
 
 /* font styles */
 
