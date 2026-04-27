@@ -1271,6 +1271,11 @@ nav {
           flex: 1 1 40%;
      }
 
+     .feedback-grid-top,
+     .feedback-grid-bottom {
+          grid-template-columns: 1fr 1fr;
+     }
+
 }
 
 /* Mobile (max-width: 768px) */
@@ -1506,6 +1511,24 @@ nav {
 
      .faq-question h3 {
           font-size: 16px;
+     }
+
+     .testimonial-header h1 {
+          font-size: 28px;
+          flex-wrap: wrap;
+     }
+
+     .video-stories-grid {
+          grid-template-columns: 1fr 1fr;
+     }
+
+     .feedback-grid-top,
+     .feedback-grid-bottom {
+          grid-template-columns: 1fr;
+     }
+
+     .video-story-card {
+          height: 280px;
      }
 
 }
