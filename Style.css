@@ -755,6 +755,132 @@ nav {
      transform: scale(1.05);
 }
 
+/* FOOTER  */
+
+.main-footer {
+     padding: 60px 0 20px;
+     background-color: #fff;
+     border-top: 1px solid #EAECF0;
+}
+
+.footer-container {
+     display: flex;
+     justify-content: space-between;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+     gap: 40px;
+}
+
+.footer-col {
+     flex: 1;
+}
+
+.about-col {
+     flex: 1.5;
+}
+
+/* Logo & Text */
+.footer-logo {
+     font-size: 32px;
+     font-weight: bold;
+     margin-bottom: 20px;
+}
+
+.about-col h3 {
+     font-size: 18px;
+     margin-bottom: 15px;
+}
+
+.about-col p {
+     color: #475467;
+     line-height: 1.5;
+     font-size: 14px;
+     margin-bottom: 25px;
+}
+
+/* Buttons */
+.footer-btns {
+     display: flex;
+     gap: 15px;
+}
+
+.btn-log {
+     padding: 10px 25px;
+     border: 1px solid #EAECF0;
+     border-radius: 50px;
+     background: #fff;
+     cursor: pointer;
+}
+
+
+
+/* Links */
+.footer-col h4 {
+     font-size: 18px;
+     margin-bottom: 20px;
+     color: #101828;
+}
+
+.footer-col ul {
+     list-style: none;
+     padding: 0;
+}
+
+.footer-col ul li {
+     margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+     text-decoration: none;
+     color: #475467;
+     font-size: 14px;
+}
+
+/* Form */
+.footer-form {
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+}
+
+.footer-form input,
+.footer-form textarea {
+     padding: 12px;
+     border: 1px solid #EAECF0;
+     border-radius: 8px;
+     background: #F9FAFB;
+     font-size: 14px;
+}
+
+.footer-form textarea {
+     height: 80px;
+     resize: none;
+}
+
+.btn-submit {
+     padding: 12px;
+     background: #1D2939;
+     color: white;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+     margin-top: 50px;
+     padding-top: 20px;
+     border-top: 1px solid #EAECF0;
+     text-align: center;
+     font-size: 13px;
+     color: #667085;
+}
+
 
 
 /* Tablet (max-width: 1024px) */
@@ -884,6 +1010,15 @@ nav {
 
      .popular-grid {
           gap: 30px;
+     }
+
+     /* footer */
+     .footer-container {
+          flex-wrap: wrap;
+     }
+
+     .footer-col {
+          flex: 1 1 40%;
      }
 
 }
@@ -1094,6 +1229,19 @@ nav {
      .popular-image img {
           max-width: 100%;
           margin: 0 auto;
+     }
+
+     /* footer */
+     .footer-container {
+          flex-direction: column;
+     }
+
+     .footer-col {
+          width: 100%;
+     }
+
+     .footer-btns {
+          flex-direction: column;
      }
 
 }
