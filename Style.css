@@ -801,6 +801,23 @@ nav {
           grid-template-columns: repeat(2, 1fr);
      }
 
+     /* video clip */
+
+     .video-grid {
+          grid-template-columns: repeat(2, 1fr);
+
+     }
+
+     .gallery-header h2 {
+          font-size: 32px;
+     }
+
+     .next-arrow {
+          top: 74%;
+          right: -16px;
+     }
+
+
 }
 
 /* Mobile (max-width: 768px) */
@@ -973,6 +990,22 @@ nav {
      .feature-card,
      .small-card {
           padding: 20px;
+     }
+
+     /* video clip */
+     .video-grid {
+          grid-template-columns: repeat(1, 1fr);
+
+     }
+
+
+     .gallery-header h2 {
+          font-size: 28px;
+          flex-wrap: wrap;
+     }
+
+     .next-arrow {
+          display: none;
      }
 
 }
