@@ -130,15 +130,7 @@ nav {
      margin-top: 24px;
 }
 
-.btn-primary {
-     color: #fff;
-     font-size: 18px;
-     border: 1px solid #B564F7;
-     padding: 8px 27px;
-     border-radius: 24px;
-     background: linear-gradient(177.38deg, #B564F7 8.45%, #6A2F9B 98.78%);
-     cursor: pointer;
-}
+
 
 .btn-secondary {
      color: #B262F3;
@@ -696,6 +688,73 @@ nav {
      font-style: normal;
 }
 
+/* Section Container */
+.popular-section {
+     padding: 80px 20px;
+     background-color: #fff;
+}
+
+.popular-grid {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 60px;
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+/* Image Styling */
+.popular-image {
+     flex: 1;
+}
+
+.popular-image img {
+     width: 100%;
+     max-width: 500px;
+     border-radius: 20px;
+     display: block;
+}
+
+/* Content Styling */
+.popular-content {
+     flex: 1;
+     text-align: left;
+}
+
+.popular-content h1 {
+     font-family: "Raleway", sans-serif;
+     font-size: 48px;
+     color: #101828;
+     line-height: 1.2;
+     margin-bottom: 24px;
+     font-weight: 700;
+}
+
+.popular-content p {
+     font-size: 16px;
+     color: #475467;
+     line-height: 1.6;
+     margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn-primary-purple {
+     background: linear-gradient(90deg, #A358EB 0%, #7B32D9 100%);
+     color: white;
+     padding: 12px 32px;
+     border: none;
+     border-radius: 50px;
+     font-size: 16px;
+     font-weight: 500;
+     cursor: pointer;
+     margin-top: 10px;
+     transition: transform 0.2s ease;
+}
+
+.btn-primary-purple:hover {
+     transform: scale(1.05);
+}
+
 
 
 /* Tablet (max-width: 1024px) */
@@ -818,6 +877,14 @@ nav {
           right: -16px;
      }
 
+     /* popular section */
+     .popular-content h1 {
+          font-size: 36px;
+     }
+
+     .popular-grid {
+          gap: 30px;
+     }
 
 }
 
@@ -894,7 +961,7 @@ nav {
           align-items: center;
      }
 
-     .btn-primary,
+     .btn-primary-purple,
      .btn-secondary {
           width: 100%;
           max-width: 300px;
@@ -1007,6 +1074,26 @@ nav {
 
      .next-arrow {
           display: none;
+     }
+
+     /* popular section */
+
+     .popular-grid {
+          flex-direction: column;
+          text-align: center;
+     }
+
+     .popular-content {
+          text-align: center;
+     }
+
+     .popular-content h1 {
+          font-size: 28px;
+     }
+
+     .popular-image img {
+          max-width: 100%;
+          margin: 0 auto;
      }
 
 }
